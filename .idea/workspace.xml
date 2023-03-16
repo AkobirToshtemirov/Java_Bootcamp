@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment=" operators">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment=" operators: logiacal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson_1/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/Variables.java" afterDir="false" />
     </list>
@@ -144,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678993745920</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary=" operators: logiacal">
+      <created>1678997024424</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1678997024424</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -155,6 +162,7 @@
     <MESSAGE value="args java" />
     <MESSAGE value="types of variables" />
     <MESSAGE value=" operators" />
-    <option name="LAST_COMMIT_MESSAGE" value=" operators" />
+    <MESSAGE value=" operators: logiacal" />
+    <option name="LAST_COMMIT_MESSAGE" value=" operators: logiacal" />
   </component>
 </project>

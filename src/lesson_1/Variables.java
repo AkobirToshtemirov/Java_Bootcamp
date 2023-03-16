@@ -16,6 +16,23 @@ public class Variables {
             System.out.println("Working");
         }
 
+        int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+        for (int i = 0; i < nums.length; i++) {
+            System.out.println(nums[i]);
+            System.out.println("=========================");
+            while(nums[i] % 2 != 0) {
+                System.out.println("Even: " + nums[i]);
+            }
+            System.out.println("End of the program!");
+        }
+
+        for (int element: nums ) {
+            System.out.println("Element: " + element);
+
+        }
+
+
+
     }
 
 
@@ -24,7 +41,12 @@ public class Variables {
         String localText = "Text";
         System.out.println(age);
         System.out.println(person);
+
     }
 
 
 }
+
+//abstract class InterfaceCar {
+//
+//}
