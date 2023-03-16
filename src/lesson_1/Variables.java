@@ -9,6 +9,12 @@ public class Variables {
 
     public static void main(String[] args) {
 
+        int a = 10;
+        int b = 12op
+
+        if(a == 10 && a < b) {
+            System.out.println("Working");
+        }
 
     }
 
