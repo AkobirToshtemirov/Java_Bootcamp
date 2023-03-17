@@ -94,7 +94,7 @@ public class Practice {
         System.out.println("Enter the year: ");
         int year = sc.nextInt();
 
-        int res = week * 7 + month * 30 + year * 365;
+        int res = week * 7 + month * 30 + year * 360;
 
         System.out.println("Overall days: " + res);
     }
