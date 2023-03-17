@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment=" operators: loops">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment=" operators: loops1">
+      <change afterPath="$PROJECT_DIR$/src/Practice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson_1/Variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/Variables.java" afterDir="false" />
     </list>
@@ -45,7 +46,7 @@
     &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Variables">
+  <component name="RunManager" selected="Application.Practice">
     <configuration name="LessonPDP1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson_1.LessonPDP1" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -55,6 +56,13 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Practice" />
+      <module name="Java_Bootcamp_PDP_lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -74,6 +82,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Practice" />
         <item itemvalue="Application.Variables" />
         <item itemvalue="Application.LessonPDP1" />
       </list>
@@ -158,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678998969126</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary=" operators: loops1">
+      <created>1679002682453</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679002682453</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -171,7 +187,8 @@
     <MESSAGE value=" operators" />
     <MESSAGE value=" operators: logiacal" />
     <MESSAGE value=" operators: loops" />
-    <option name="LAST_COMMIT_MESSAGE" value=" operators: loops" />
+    <MESSAGE value=" operators: loops1" />
+    <option name="LAST_COMMIT_MESSAGE" value=" operators: loops1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
