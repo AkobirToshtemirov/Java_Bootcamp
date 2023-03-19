@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="simple java program">
-      <change afterPath="$PROJECT_DIR$/src/LinearSearch.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="Linear search algorithm">
+      <change beforePath="$PROJECT_DIR$/src/LinearSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LinearSearch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679232851491</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Linear search algorithm">
+      <created>1679232988413</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1679232988413</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -259,7 +266,8 @@
     <MESSAGE value="darts competition" />
     <MESSAGE value="darts competition 1" />
     <MESSAGE value="simple java program" />
-    <option name="LAST_COMMIT_MESSAGE" value="simple java program" />
+    <MESSAGE value="Linear search algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="Linear search algorithm" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

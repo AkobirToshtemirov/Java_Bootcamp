@@ -2,6 +2,10 @@ import java.util.Scanner;
 
 public class LinearSearch {
     public static void main(String []args) {
+        searchResult();
+    }
+
+    static void searchResult() {
         String[] studentNames = {"Smith","Johnson","Williams","Jones","Brown","Davis","Miller","Wilson"};
         System.out.println("Enter the name of the student: ");
         Scanner scanner = new Scanner(System.in);
