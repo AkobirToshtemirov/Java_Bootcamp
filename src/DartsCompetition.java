@@ -53,6 +53,7 @@ public class DartsCompetition
     }
 
     public static void main(String[] args) {
+        
 
         int[][] x = new int[4][3];
         int[][] y = new int[4][3];

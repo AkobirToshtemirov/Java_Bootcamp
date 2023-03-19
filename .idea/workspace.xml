@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment=" operators: passing the parameters1">
-      <change afterPath="$PROJECT_DIR$/src/CodingBat.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="darts competition 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DartsCompetition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DartsCompetition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +217,28 @@
       <option name="project" value="LOCAL" />
       <updated>1679067251078</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="codingBat simple algorithms">
+      <created>1679206967241</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1679206967241</updated>
+    </task>
+    <task id="LOCAL-00017" summary="darts competition">
+      <created>1679207157740</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1679207157740</updated>
+    </task>
+    <task id="LOCAL-00018" summary="darts competition 1">
+      <created>1679209466077</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679209466077</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -234,7 +255,10 @@
     <MESSAGE value=" operators: math sqrt" />
     <MESSAGE value=" operators: passing the parameters" />
     <MESSAGE value=" operators: passing the parameters1" />
-    <option name="LAST_COMMIT_MESSAGE" value=" operators: passing the parameters1" />
+    <MESSAGE value="codingBat simple algorithms" />
+    <MESSAGE value="darts competition" />
+    <MESSAGE value="darts competition 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="darts competition 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
