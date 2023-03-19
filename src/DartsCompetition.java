@@ -93,4 +93,5 @@ public class DartsCompetition
         else num=3;
         System.out.printf("\nThe best result was shown by player of the team %d with a score of %d.\n",num, max);
     }
+
 }
