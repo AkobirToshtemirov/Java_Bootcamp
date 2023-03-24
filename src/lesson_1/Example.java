@@ -17,8 +17,12 @@ public class Example {
 //        modifyArray(arr);
 //        System.out.println("After: " + Arrays.toString(arr));
 
-        int[] arr = {1, 2, 3, 4, 5, 6, 7};
-        int[] b = new int[]{1, 2, 3, 4, 5, 6, 7, 7, 8, 8};
+
+
+        char newSymbol;
+        String newString;
+       
+
 
     }
 
