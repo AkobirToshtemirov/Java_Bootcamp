@@ -21,7 +21,7 @@ public class Example {
 
         char newSymbol;
         String newString;
-       
+        
 
 
     }
@@ -35,4 +35,6 @@ public class Example {
     public static void modifyArray(int[] array) {
         array[0] = 100;
     }
+
+
 }
