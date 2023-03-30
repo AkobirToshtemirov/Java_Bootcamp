@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="StringBuilder in Java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="Practice StringBuilder in Java">
       <change beforePath="$PROJECT_DIR$/src/lesson_1/CheckString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/CheckString.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -414,11 +413,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680165416175</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Practice StringBuilder in Java">
+      <created>1680166338133</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1680166338133</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" operators: passing the parameters" />
     <MESSAGE value=" operators: passing the parameters1" />
     <MESSAGE value="codingBat simple algorithms" />
     <MESSAGE value="darts competition" />
@@ -443,7 +448,8 @@
     <MESSAGE value="working with currency BigDecimal" />
     <MESSAGE value="BigDecimal" />
     <MESSAGE value="StringBuilder in Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="StringBuilder in Java" />
+    <MESSAGE value="Practice StringBuilder in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Practice StringBuilder in Java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

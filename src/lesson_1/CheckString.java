@@ -28,6 +28,18 @@ public class CheckString {
         sb.append(input1);
         System.out.println("Res: " + sb);
 
+        System.out.println("Enter the text: ");
+        String input2 = sc.nextLine();
+
+        sb.append(input2);
+        System.out.println("Res input1 && input2: " + sb);
+
+
+        System.out.println("================");
+        System.out.println("Test");
+        sb.append(input1)
+                .append(", ")
+                .append(input2);
     }
 
     public static void stringBuilder() {
