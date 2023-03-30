@@ -1,5 +1,7 @@
 package lesson_1;
 
+import java.util.Scanner;
+
 public class CheckString {
     public static void main(String[] args) {
 //        String CheckString String Interpletion
@@ -10,9 +12,21 @@ public class CheckString {
 
 //        stringBuilder();
 
+        // practiceStringBuilder
+
+        practiceStringBuilder();
+
     }
 
     public static void practiceStringBuilder() {
+        StringBuilder sb = new StringBuilder();
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter the text: ");
+        String input1 = sc.nextLine();
+
+        sb.append(input1);
+        System.out.println("Res: " + sb);
 
     }
 
