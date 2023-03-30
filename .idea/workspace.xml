@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="Formatting Currency in Java">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="DecimalFormat Java for Currency">
+      <change afterPath="$PROJECT_DIR$/src/lesson_1/StringValues.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson_1/NumberFormatLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/NumberFormatLesson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.NumberFormatLesson">
+  <component name="RunManager" selected="Application.StringValues">
     <configuration name="ArgsOrParams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson_1.ArgsOrParams" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -77,14 +77,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSortExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BubbleSortExamples" />
-      <module name="Java_Bootcamp_PDP_lessons" />
-      <option name="PROGRAM_PARAMETERS" value="red blue yellow green" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -128,20 +120,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_1.StringValues" />
+      <module name="Java_Bootcamp_PDP_lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CheckString" />
       <item itemvalue="Application.NumberFormatLesson" />
       <item itemvalue="Application.StoringCurrency" />
+      <item itemvalue="Application.StringValues" />
       <item itemvalue="Application.ArgsOrParams" />
-      <item itemvalue="Application.BubbleSortExamples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringValues" />
         <item itemvalue="Application.NumberFormatLesson" />
         <item itemvalue="Application.CheckString" />
         <item itemvalue="Application.StoringCurrency" />
         <item itemvalue="Application.ArgsOrParams" />
-        <item itemvalue="Application.BubbleSortExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -448,11 +453,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680171216228</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="DecimalFormat Java for Currency">
+      <created>1680171706234</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1680171706234</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="darts competition 1" />
     <MESSAGE value="simple java program" />
     <MESSAGE value="Linear search algorithm" />
     <MESSAGE value="optimizing algorithm" />
@@ -477,7 +488,8 @@
     <MESSAGE value="Practice StringBuilder in Java append" />
     <MESSAGE value="NumberFormat Java" />
     <MESSAGE value="Formatting Currency in Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Formatting Currency in Java" />
+    <MESSAGE value="DecimalFormat Java for Currency" />
+    <option name="LAST_COMMIT_MESSAGE" value="DecimalFormat Java for Currency" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
