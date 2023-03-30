@@ -25,5 +25,7 @@ public class StoringCurrency {
         BigDecimal bigValue = new BigDecimal(strValue);
         System.out.println("BigDecimal strValue: " + bigValue);
 
+        BigDecimal bSum = bigValue.add(bigValue).add(bigValue);
+        System.out.println("BigDecimal bSum: " + bSum);
     }
 }
