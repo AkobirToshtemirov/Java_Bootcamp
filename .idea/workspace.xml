@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="working with API doc">
-      <change afterPath="$PROJECT_DIR$/src/lesson_1/StoringCurrency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_1/WrapperClasses.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="working with currency BigDecimal">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson_1/ArgsOrParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/ArgsOrParams.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_1/StoringCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/StoringCurrency.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -382,12 +380,24 @@
       <option name="project" value="LOCAL" />
       <updated>1680141957120</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="working with currency">
+      <created>1680147279422</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1680147279422</updated>
+    </task>
+    <task id="LOCAL-00036" summary="working with currency BigDecimal">
+      <created>1680147529385</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1680147529385</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" operators: logiacal" />
-    <MESSAGE value=" operators: loops" />
     <MESSAGE value=" operators: loops1" />
     <MESSAGE value=" operators: math sqrt" />
     <MESSAGE value=" operators: passing the parameters" />
@@ -411,7 +421,9 @@
     <MESSAGE value="examples of algorithms" />
     <MESSAGE value="examples of params" />
     <MESSAGE value="working with API doc" />
-    <option name="LAST_COMMIT_MESSAGE" value="working with API doc" />
+    <MESSAGE value="working with currency" />
+    <MESSAGE value="working with currency BigDecimal" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with currency BigDecimal" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

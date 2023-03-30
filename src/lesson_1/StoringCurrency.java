@@ -27,5 +27,14 @@ public class StoringCurrency {
 
         BigDecimal bSum = bigValue.add(bigValue).add(bigValue);
         System.out.println("BigDecimal bSum: " + bSum);
+
+        // Change BigDecimal to double
+
+        double sumFinal = bSum.doubleValue();
+        System.out.println("bSum changed to double: " + sumFinal);
+
+        // BigDecimal is really important when working with currency
+
+
     }
 }
