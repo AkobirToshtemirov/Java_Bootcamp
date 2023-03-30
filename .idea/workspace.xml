@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="Practice StringBuilder in Java append">
-      <change afterPath="$PROJECT_DIR$/src/lesson_1/NumberFormatLesson.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="NumberFormat Java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_1/NumberFormatLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/NumberFormatLesson.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -434,11 +434,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680167225750</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="NumberFormat Java">
+      <created>1680170079412</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1680170079412</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="codingBat simple algorithms" />
     <MESSAGE value="darts competition" />
     <MESSAGE value="darts competition 1" />
     <MESSAGE value="simple java program" />
@@ -463,7 +469,8 @@
     <MESSAGE value="StringBuilder in Java" />
     <MESSAGE value="Practice StringBuilder in Java" />
     <MESSAGE value="Practice StringBuilder in Java append" />
-    <option name="LAST_COMMIT_MESSAGE" value="Practice StringBuilder in Java append" />
+    <MESSAGE value="NumberFormat Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="NumberFormat Java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
