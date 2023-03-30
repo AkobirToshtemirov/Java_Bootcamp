@@ -7,6 +7,8 @@ public class ArgsOrParams {
                 args) {
             System.out.println(i + s);
             i++;
+
+            // Shift + F1 to open the documentation #docs
         }
     }
 }

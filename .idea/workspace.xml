@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="examples of params">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="working with API doc">
+      <change afterPath="$PROJECT_DIR$/src/lesson_1/StoringCurrency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_1/WrapperClasses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson_1/ArgsOrParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/ArgsOrParams.java" afterDir="false" />
     </list>
@@ -54,16 +56,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;F:/Java_Bootcamp_PDP_lessons&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "F:/Java_Bootcamp_PDP_lessons",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
-  <component name="RunManager" selected="Application.ArgsOrParams">
+}]]></component>
+  <component name="RunManager" selected="Application.StoringCurrency">
     <configuration name="ArgsOrParams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson_1.ArgsOrParams" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -100,27 +105,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SelectionSort" />
+    <configuration name="StoringCurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_1.StoringCurrency" />
       <module name="Java_Bootcamp_PDP_lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StoringCurrency" />
       <item itemvalue="Application.ArgsOrParams" />
       <item itemvalue="Application.BubbleSortExamples" />
       <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.QuickSort" />
-      <item itemvalue="Application.SelectionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StoringCurrency" />
         <item itemvalue="Application.ArgsOrParams" />
         <item itemvalue="Application.BubbleSortExamples" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -364,11 +375,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680104564810</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="working with API doc">
+      <created>1680141957120</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1680141957120</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value=" operators" />
     <MESSAGE value=" operators: logiacal" />
     <MESSAGE value=" operators: loops" />
     <MESSAGE value=" operators: loops1" />
@@ -393,7 +410,8 @@
     <MESSAGE value="examples of algo" />
     <MESSAGE value="examples of algorithms" />
     <MESSAGE value="examples of params" />
-    <option name="LAST_COMMIT_MESSAGE" value="examples of params" />
+    <MESSAGE value="working with API doc" />
+    <option name="LAST_COMMIT_MESSAGE" value="working with API doc" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
