@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="examples of algorithms">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="examples of params">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson_1/Example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/Example.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_1/ArgsOrParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/ArgsOrParams.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,26 +54,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "F:/Java_Bootcamp_PDP_lessons",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Java_Bootcamp_PDP_lessons&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.BubbleSortExamples">
-    <configuration name="BubbleSortExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BubbleSortExamples" />
+}</component>
+  <component name="RunManager" selected="Application.ArgsOrParams">
+    <configuration name="ArgsOrParams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_1.ArgsOrParams" />
       <module name="Java_Bootcamp_PDP_lessons" />
+      <option name="PROGRAM_PARAMETERS" value="red blue grren yellow" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="lesson_1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertionSorting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="InsertionSorting" />
+    <configuration name="BubbleSortExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSortExamples" />
       <module name="Java_Bootcamp_PDP_lessons" />
+      <option name="PROGRAM_PARAMETERS" value="red blue yellow green" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,13 +107,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.ArgsOrParams" />
+      <item itemvalue="Application.BubbleSortExamples" />
+      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.QuickSort" />
+      <item itemvalue="Application.SelectionSort" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArgsOrParams" />
         <item itemvalue="Application.BubbleSortExamples" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.SelectionSort" />
-        <item itemvalue="Application.InsertionSorting" />
       </list>
     </recent_temporary>
   </component>
@@ -342,11 +357,17 @@
       <option name="project" value="LOCAL" />
       <updated>1679638400722</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="examples of params">
+      <created>1680104564810</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1680104564810</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="types of variables" />
     <MESSAGE value=" operators" />
     <MESSAGE value=" operators: logiacal" />
     <MESSAGE value=" operators: loops" />
@@ -371,7 +392,8 @@
     <MESSAGE value="Quick Sorting algo" />
     <MESSAGE value="examples of algo" />
     <MESSAGE value="examples of algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="examples of algorithms" />
+    <MESSAGE value="examples of params" />
+    <option name="LAST_COMMIT_MESSAGE" value="examples of params" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
