@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="NumberFormat Java">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="Formatting Currency in Java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/lesson_1/NumberFormatLesson.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/NumberFormatLesson.java" afterDir="false" />
     </list>
@@ -441,11 +441,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680170079412</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Formatting Currency in Java">
+      <created>1680171216228</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1680171216228</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="darts competition" />
     <MESSAGE value="darts competition 1" />
     <MESSAGE value="simple java program" />
     <MESSAGE value="Linear search algorithm" />
@@ -470,7 +476,8 @@
     <MESSAGE value="Practice StringBuilder in Java" />
     <MESSAGE value="Practice StringBuilder in Java append" />
     <MESSAGE value="NumberFormat Java" />
-    <option name="LAST_COMMIT_MESSAGE" value="NumberFormat Java" />
+    <MESSAGE value="Formatting Currency in Java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Formatting Currency in Java" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

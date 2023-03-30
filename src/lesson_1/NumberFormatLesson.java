@@ -1,5 +1,6 @@
 package lesson_1;
 
+import java.text.DecimalFormat;
 import java.text.NumberFormat;
 import java.util.Locale;
 
@@ -39,6 +40,20 @@ public class NumberFormatLesson {
         NumberFormat currencyFormatUz = NumberFormat.getCurrencyInstance(localeUz);
         System.out.println(currencyFormatUz.format(dval));
 
+        // To customize format use DecimalFormat
+
+        DecimalFormat df = new DecimalFormat("$000.00");
+        System.out.println(df.format(1));
+
+        System.out.println(df.format(1212.232332));
+
+        // ////////////////////////////////////////
+
+
+        DecimalFormat dfNext = new DecimalFormat("$##0.00#"); // # means only display the character of it is needed;
+        System.out.println(dfNext.format(1));
+
+        System.out.println(dfNext.format(1212.232332));
 
     }
 }
