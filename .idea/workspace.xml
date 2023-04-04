@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="DecimalFormat Java for Currency">
-      <change afterPath="$PROJECT_DIR$/src/lesson_1/StringValues.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="Parse String Values">
+      <change afterPath="$PROJECT_DIR$/src/ZipZapProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lesson_1/Factorial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_1/StringValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/StringValues.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,23 +56,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "F:/Java_Bootcamp_PDP_lessons",
-    "project.structure.last.edited": "SDKs",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Java_Bootcamp_PDP_lessons&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.StringValues">
-    <configuration name="ArgsOrParams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_1.ArgsOrParams" />
+}</component>
+  <component name="RunManager" selected="Application.ZipZapProblem">
+    <configuration name="CheckString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_1.CheckString" />
       <module name="Java_Bootcamp_PDP_lessons" />
-      <option name="PROGRAM_PARAMETERS" value="red blue grren yellow" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="lesson_1.*" />
@@ -81,8 +82,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_1.CheckString" />
+    <configuration name="Factorial" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lesson_1.Factorial" />
       <module name="Java_Bootcamp_PDP_lessons" />
       <extension name="coverage">
         <pattern>
@@ -107,19 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoringCurrency" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_1.StoringCurrency" />
-      <module name="Java_Bootcamp_PDP_lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StringValues" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="lesson_1.StringValues" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -133,20 +121,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ZipZapProblem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ZipZapProblem" />
+      <module name="Java_Bootcamp_PDP_lessons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.ZipZapProblem" />
+      <item itemvalue="Application.Factorial" />
       <item itemvalue="Application.CheckString" />
       <item itemvalue="Application.NumberFormatLesson" />
-      <item itemvalue="Application.StoringCurrency" />
       <item itemvalue="Application.StringValues" />
-      <item itemvalue="Application.ArgsOrParams" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ZipZapProblem" />
+        <item itemvalue="Application.Factorial" />
         <item itemvalue="Application.StringValues" />
         <item itemvalue="Application.NumberFormatLesson" />
         <item itemvalue="Application.CheckString" />
-        <item itemvalue="Application.StoringCurrency" />
-        <item itemvalue="Application.ArgsOrParams" />
       </list>
     </recent_temporary>
   </component>
@@ -460,11 +455,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680171706234</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="Parse String Values">
+      <created>1680173261784</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1680173261784</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="simple java program" />
     <MESSAGE value="Linear search algorithm" />
     <MESSAGE value="optimizing algorithm" />
     <MESSAGE value="Binary Search Algorithm" />
@@ -489,7 +490,54 @@
     <MESSAGE value="NumberFormat Java" />
     <MESSAGE value="Formatting Currency in Java" />
     <MESSAGE value="DecimalFormat Java for Currency" />
-    <option name="LAST_COMMIT_MESSAGE" value="DecimalFormat Java for Currency" />
+    <MESSAGE value="Parse String Values" />
+    <option name="LAST_COMMIT_MESSAGE" value="Parse String Values" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZipZapProblem.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZipZapProblem.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZipZapProblem.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZipZapProblem.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ZipZapProblem.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ZipZapProblem.java</url>
+          <line>6</line>
+          <properties class="ZipZapProblem" method="zipZap">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-defaults>
+        <breakpoint suspend="THREAD" type="java-line" />
+      </breakpoints-defaults>
+      <default-breakpoints>
+        <breakpoint type="dart-exception" />
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java_Bootcamp_PDP_lessons$Variables.ic" NAME="Variables Coverage Results" MODIFIED="1678998547388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

@@ -23,6 +23,7 @@ public class StringValues {
         System.out.println(trimmed);
 
         String s = "34.452";
+
         System.out.println(s);
         Double d = Double.parseDouble(s);
         System.out.println(d);
@@ -31,5 +32,9 @@ public class StringValues {
 
         double dW = Double.parseDouble(s);
         System.out.println(dW);
+
+        for (int i = 0; i < s.length(); i++) {
+
+        }
     }
 }
