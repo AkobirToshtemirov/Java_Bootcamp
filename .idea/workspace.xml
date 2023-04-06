@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Recursive method">
-      <change afterPath="$PROJECT_DIR$/src/StringMethods.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add String methods">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/lesson_1/RescursionJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/RescursionJava.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -471,11 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680754079468</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="add String methods">
+      <created>1680776868611</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1680776868611</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Insertion sort" />
     <MESSAGE value="Selection sort" />
     <MESSAGE value="Heap sort" />
     <MESSAGE value="Heap&#10; sort" />
@@ -500,7 +505,8 @@
     <MESSAGE value="add starOut problem solution" />
     <MESSAGE value="add Sum67 problem solution" />
     <MESSAGE value="add Recursive method" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Recursive method" />
+    <MESSAGE value="add String methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="add String methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

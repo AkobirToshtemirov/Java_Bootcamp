@@ -49,9 +49,25 @@ public class StringMethods {
 //        System.out.println(Arrays.toString(arr)); // Output: [apple, banana, orange]
 
         // code point
-        String str = "hello world";
-        int codePoint = str.codePointAt(1);
-        System.out.println(codePoint); // Output: 101 (the Unicode code point for the letter 'e')
+//        String str = "hello world";
+////        int codePoint = str.codePointAt(1);
+////        System.out.println(codePoint); // Output: 101 (the Unicode code point for the letter 'e')
+//        str.codePoints().forEach(codePoint -> {
+//            System.out.println(codePoint);
+//        });
 
+        // Text block
+
+        String html = """
+    <html>
+        <head>
+            <title>My Web Page</title>
+        </head>
+        <body>
+            <p>Welcome to my web page!</p>
+        </body>
+    </html>
+""";
+        System.out.println(html);
     }
 }
