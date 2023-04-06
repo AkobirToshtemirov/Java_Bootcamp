@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Sum67 problem solution">
-      <change afterPath="$PROJECT_DIR$/src/ReviewvingLessons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_1/RescursionJava.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Recursive method">
+      <change afterPath="$PROJECT_DIR$/src/StringMethods.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lesson_1/RescursionJava.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lesson_1/RescursionJava.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,9 +67,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.RescursionJava">
-    <configuration name="PlusOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlusOut" />
+  <component name="RunManager" selected="Application.StringMethods">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
       <module name="Java_Bootcamp_PDP_lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,8 +88,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StarOut" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StarOut" />
+    <configuration name="StringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringMethods" />
       <module name="Java_Bootcamp_PDP_lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,19 +110,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StringMethods" />
+      <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.RescursionJava" />
       <item itemvalue="Application.Sum67" />
       <item itemvalue="Application.Sum13" />
-      <item itemvalue="Application.PlusOut" />
-      <item itemvalue="Application.StarOut" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringMethods" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.RescursionJava" />
         <item itemvalue="Application.Sum67" />
         <item itemvalue="Application.Sum13" />
-        <item itemvalue="Application.PlusOut" />
-        <item itemvalue="Application.StarOut" />
       </list>
     </recent_temporary>
   </component>
@@ -464,11 +464,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680678863872</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="add Recursive method">
+      <created>1680754079468</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1680754079468</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Bubble Sort Algorithm" />
     <MESSAGE value="Insertion sort" />
     <MESSAGE value="Selection sort" />
     <MESSAGE value="Heap sort" />
@@ -493,26 +499,11 @@
     <MESSAGE value="add new problem solution" />
     <MESSAGE value="add starOut problem solution" />
     <MESSAGE value="add Sum67 problem solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Sum67 problem solution" />
+    <MESSAGE value="add Recursive method" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Recursive method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lesson_1/RescursionJava.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/lesson_1/RescursionJava.java</url>
-          <line>8</line>
-          <properties class="lesson_1.RescursionJava" method="factorialOfNum">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>

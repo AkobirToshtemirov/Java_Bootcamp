@@ -12,6 +12,7 @@ public class RescursionJava {
             return 1;
         else{
             res = n * factorialOfNum(n - 1);
-            return res;}
+            return res;
+        }
     }
 }
