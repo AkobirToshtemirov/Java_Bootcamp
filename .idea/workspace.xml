@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that tOOGLES each word in String">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that tOOGLES each word in String V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringInterviewQuestions.java" afterDir="false" />
     </list>
@@ -133,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00011" summary=" operators: loops1">
-      <created>1679002682453</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1679002682453</updated>
     </task>
     <task id="LOCAL-00012" summary=" operators: loops1">
       <created>1679051003573</created>
@@ -477,11 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680846958317</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="add Program that tOOGLES each word in String V2">
+      <created>1680851970323</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1680851970323</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working with currency" />
     <MESSAGE value="working with currency BigDecimal" />
     <MESSAGE value="BigDecimal" />
     <MESSAGE value="StringBuilder in Java" />
@@ -506,7 +505,8 @@
     <MESSAGE value="add Program that reverses each word in the String" />
     <MESSAGE value="add Program that reverses each word in the String V2" />
     <MESSAGE value="add Program that tOOGLES each word in String" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Program that tOOGLES each word in String" />
+    <MESSAGE value="add Program that tOOGLES each word in String V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Program that tOOGLES each word in String V2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -515,15 +515,6 @@
           <url>file://$PROJECT_DIR$/src/StringInterviewQuestions.java</url>
           <line>18</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/StringInterviewQuestions.java</url>
-          <line>143</line>
-          <properties class="StringInterviewQuestions" method="toggleEachWordV2">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>

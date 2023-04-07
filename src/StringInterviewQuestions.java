@@ -24,7 +24,11 @@ public class StringInterviewQuestions {
 //        System.out.println(res);
 
         //Q:8 Answer
-        String res = toggleEachWordV2("this is javatpoint");
+//        String res = toggleEachWordV2("this is javatpoint");
+//        System.out.println(res);
+
+        //Q:9 Answer
+        String res = reverseToggle("this is javatpoint");
         System.out.println(res);
 
     }
@@ -142,22 +146,6 @@ public class StringInterviewQuestions {
     }
 
     static String toggleEachWordV2(String str) {
-//        if(str.length() == 0) {
-//            return "";
-//        }
-
-        //        boolean capitalizeNext = true;
-        //        for (char c : str.toCharArray()) {
-        //            if (Character.isWhitespace(c)) {
-        //                sb.append(c);
-        //                capitalizeNext = true;
-        //            } else if (capitalizeNext) {
-        //                sb.append(Character.toUpperCase(c));
-        //                capitalizeNext = false;
-        //            } else {
-        //                sb.append(Character.toLowerCase(c));
-        //            }
-        //        }
         StringBuilder sb = new StringBuilder(str.length());
         boolean capitalizeNext = false;
         for (char c : str.toCharArray()) {
@@ -170,6 +158,34 @@ public class StringInterviewQuestions {
           } else {
               sb.append(Character.toUpperCase(c));
           }
+        }
+
+        return sb.toString();
+    }
+
+    //Q:9 Solution
+    static String reverseToggle(String str) {
+        String[] words = str.split("\\s+");
+
+        for (int i = 0; i < words.length; i++) {
+            StringBuilder sb = new StringBuilder(words[i]);
+            words[i] = sb.reverse().toString();
+        }
+
+        String res = String.join(" ", words);
+        StringBuilder sb = new StringBuilder();
+
+        for(char c : res.toCharArray()) {
+            boolean capitalizeNext = false;
+            if(Character.isWhitespace(c)) {
+                sb.append(c);
+                capitalizeNext = false;
+            } else if(!capitalizeNext) {
+                sb.append(c);
+                capitalizeNext = true;
+            } else {
+                sb.append(Character.toUpperCase(c));
+            }
         }
 
         return sb.toString();
@@ -230,3 +246,10 @@ public class StringInterviewQuestions {
 // this is javatpoint
 //ouput
 // tHIS iS jAVATPOINT
+
+//Q: 9
+// Write a program reverse tOGGLE each word in string
+//input
+// this is javatpoint
+//output
+//sIHT sI tNIOPJAVAJ
