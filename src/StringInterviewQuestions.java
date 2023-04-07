@@ -16,7 +16,7 @@ public class StringInterviewQuestions {
 //        System.out.println(res);
 
         //Q:6
-        String res = capitalizeEachWord("apple lemon banana cherry");
+        String res = capStringV1("apple lemon banana cherry");
         System.out.println(res);
 
     }
@@ -63,6 +63,18 @@ public class StringInterviewQuestions {
         }
 
         return sb.toString();
+    }
+
+    static String capStringV1(String str) {
+        String[] words = str.split("\\s+");
+        StringBuilder sb = new StringBuilder(words.length);
+        for (String word : words) {
+            sb.append(word.substring(0, 1).toUpperCase());
+            sb.append(word.substring(1));
+            sb.append(" ");
+        }
+
+        return sb.toString().trim();
     }
 
     //Q:6 Solution V2

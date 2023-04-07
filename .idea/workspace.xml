@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that returns Each word of string capitalized">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that returns Each word of string capitalized V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringInterviewQuestions.java" afterDir="false" />
     </list>
@@ -133,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00006" summary="args java">
-      <created>1678991417791</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1678991417791</updated>
     </task>
     <task id="LOCAL-00007" summary="types of variables">
       <created>1678991767201</created>
@@ -477,11 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680841334629</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="add Program that returns Each word of string capitalized V2">
+      <created>1680842192441</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1680842192441</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Quick Sorting algo" />
     <MESSAGE value="examples of algo" />
     <MESSAGE value="examples of algorithms" />
     <MESSAGE value="examples of params" />
@@ -506,10 +505,18 @@
     <MESSAGE value="add Program Which checks String if it is Palindrome or not" />
     <MESSAGE value="add Program Which checks String if it is Palindrome or not V2" />
     <MESSAGE value="add Program that returns Each word of string capitalized" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Program that returns Each word of string capitalized" />
+    <MESSAGE value="add Program that returns Each word of string capitalized V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Program that returns Each word of string capitalized V2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/StringInterviewQuestions.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
       <breakpoints-defaults>
         <breakpoint suspend="THREAD" type="java-line" />
       </breakpoints-defaults>
