@@ -24,7 +24,7 @@ public class StringInterviewQuestions {
 //        System.out.println(res);
 
         //Q:8 Answer
-        String res = toggleEachWord("this is javatpoint");
+        String res = toggleEachWordV2("this is javatpoint");
         System.out.println(res);
 
     }
@@ -136,6 +136,40 @@ public class StringInterviewQuestions {
             sb.append(word.charAt(0));
             sb.append(word.substring(1).toUpperCase());
             sb.append(" ");
+        }
+
+        return sb.toString();
+    }
+
+    static String toggleEachWordV2(String str) {
+//        if(str.length() == 0) {
+//            return "";
+//        }
+
+        //        boolean capitalizeNext = true;
+        //        for (char c : str.toCharArray()) {
+        //            if (Character.isWhitespace(c)) {
+        //                sb.append(c);
+        //                capitalizeNext = true;
+        //            } else if (capitalizeNext) {
+        //                sb.append(Character.toUpperCase(c));
+        //                capitalizeNext = false;
+        //            } else {
+        //                sb.append(Character.toLowerCase(c));
+        //            }
+        //        }
+        StringBuilder sb = new StringBuilder(str.length());
+        boolean capitalizeNext = false;
+        for (char c : str.toCharArray()) {
+          if(Character.isWhitespace(c)) {
+              sb.append(c);
+              capitalizeNext = false;
+          } else if(!capitalizeNext) {
+              sb.append(c);
+              capitalizeNext = true;
+          } else {
+              sb.append(Character.toUpperCase(c));
+          }
         }
 
         return sb.toString();
