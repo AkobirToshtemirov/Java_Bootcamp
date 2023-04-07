@@ -20,7 +20,7 @@ public class StringInterviewQuestions {
 //        System.out.println(res);
 
         //Q:7 Answer
-        String res = reverseEachWord("this is javatpoint");
+        String res = reverseEachWordV2("this is javatpoint");
         System.out.println(res);
 
     }
@@ -111,6 +111,16 @@ public class StringInterviewQuestions {
         }
 
         return sb.toString();
+    }
+
+    //Optimized version
+    static String reverseEachWordV2(String str) {
+        String[] words = str.split("\\s+");
+        for (int i = 0; i < words.length; i++) {
+            StringBuilder wordBuilder = new StringBuilder(words[i]);
+            words[i] = wordBuilder.reverse().toString();
+        }
+        return String.join(" ", words);
     }
 
 
