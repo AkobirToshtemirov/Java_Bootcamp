@@ -65,6 +65,24 @@ public class StringInterviewQuestions {
         return sb.toString();
     }
 
+    //Q:6 Solution V2
+    static String capStringV2(String str) {
+        StringBuilder sb = new StringBuilder(str.length());
+        boolean capitalizeNext = true;
+        for (char c : str.toCharArray()) {
+            if (Character.isWhitespace(c)) {
+                sb.append(c);
+                capitalizeNext = true;
+            } else if (capitalizeNext) {
+                sb.append(Character.toUpperCase(c));
+                capitalizeNext = false;
+            } else {
+                sb.append(Character.toLowerCase(c));
+            }
+        }
+        return sb.toString();
+    }
+
 }
 
 // Q:1

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program Which checks String if it is Palindrome or not V2">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that returns Each word of string capitalized">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringInterviewQuestions.java" afterDir="false" />
     </list>
@@ -133,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00005" summary="command-line argument arguments check">
-      <created>1678890379218</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1678890379218</updated>
     </task>
     <task id="LOCAL-00006" summary="args java">
       <created>1678991417791</created>
@@ -477,11 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680839314879</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="add Program that returns Each word of string capitalized">
+      <created>1680841334629</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1680841334629</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Quick Sort" />
     <MESSAGE value="Quick Sorting algo" />
     <MESSAGE value="examples of algo" />
     <MESSAGE value="examples of algorithms" />
@@ -506,7 +505,8 @@
     <MESSAGE value="add Program Which reverses String" />
     <MESSAGE value="add Program Which checks String if it is Palindrome or not" />
     <MESSAGE value="add Program Which checks String if it is Palindrome or not V2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Program Which checks String if it is Palindrome or not V2" />
+    <MESSAGE value="add Program that returns Each word of string capitalized" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Program that returns Each word of string capitalized" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
