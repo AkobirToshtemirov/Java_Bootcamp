@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program Which reverses String">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program Which checks String if it is Palindrome or not">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringInterviewQuestions.java" afterDir="false" />
     </list>
@@ -133,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00003" summary="command-line argument">
-      <created>1678863127070</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1678863127070</updated>
     </task>
     <task id="LOCAL-00004" summary="command-line argument arguments">
       <created>1678863291913</created>
@@ -477,11 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680837520683</updated>
     </task>
-    <option name="localTasksCounter" value="52" />
+    <task id="LOCAL-00052" summary="add Program Which checks String if it is Palindrome or not">
+      <created>1680838807408</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1680838807408</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Heap&#10; sort" />
     <MESSAGE value="Merge Sort" />
     <MESSAGE value="Quick Sort" />
     <MESSAGE value="Quick Sorting algo" />
@@ -506,7 +505,8 @@
     <MESSAGE value="add String methods" />
     <MESSAGE value="add String methods Immutable String" />
     <MESSAGE value="add Program Which reverses String" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Program Which reverses String" />
+    <MESSAGE value="add Program Which checks String if it is Palindrome or not" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Program Which checks String if it is Palindrome or not" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,31 +1,47 @@
 public class StringInterviewQuestions {
 
     public static void main(String[] args) {
-    //Q:4 Answer
+        //Q:4 Answer
 //        String res = reverseString("this is javatpoint");
 //        System.out.println(res);
 
-     //Q:5 Answer
-      boolean res = isPalindrome("nitin");
+        //Q:5 Answer
+//        boolean res = isPalindrome("jitin");
+//        System.out.println(res);
+
+        //Q:5 Answer V2
+        boolean res = isPalindromeV2("nitin");
         System.out.println(res);
     }
 
     // Q:4 Solution
     static String reverseString(String str){
         StringBuilder sb = new StringBuilder();
-        for (int i = str.length() - 1; i >= 0; i--) {
+        for (int i = str.length() - 1; i >= 0; i--)
             sb.append(str.charAt(i));
-        }
         return sb.toString();
     }
 
     //Q:5 Solution V1
     static boolean isPalindrome(String str) {
         StringBuilder sb = new StringBuilder();
-        for (int i = str.length() - 1; i >= 0; i--) {
+        for (int i = str.length() - 1; i >= 0; i--)
             sb.append(str.charAt(i));
-        }
         return (str.equals(sb.toString()));
+    }
+
+    //Q:5 Solution V2
+    static boolean isPalindromeV2(String str) {
+        int i = 0;
+        int j = str.length() - 1;
+        while(i < j) {
+            if(str.charAt(i) != str.charAt(j))
+                return false;
+            i++;
+            j--;
+        }
+
+        return true;
     }
 
 
