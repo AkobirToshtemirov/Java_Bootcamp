@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add String methods">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add String methods Immutable String">
+      <change afterPath="$PROJECT_DIR$/src/StringInterviewQuestions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/StringTokenizerLesson.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringMethods.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +67,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringMethods">
+  <component name="RunManager" selected="Application.StringInterviewQuestions">
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuickSort" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -87,6 +88,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringInterviewQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringInterviewQuestions" />
+      <module name="Java_Bootcamp_PDP_lessons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StringMethods" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -94,34 +102,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sum13" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sum13" />
-      <module name="Java_Bootcamp_PDP_lessons" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Sum67" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Sum67" />
+    <configuration name="StringTokenizerLesson" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringTokenizerLesson" />
       <module name="Java_Bootcamp_PDP_lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StringInterviewQuestions" />
+      <item itemvalue="Application.StringTokenizerLesson" />
       <item itemvalue="Application.StringMethods" />
       <item itemvalue="Application.QuickSort" />
       <item itemvalue="Application.RescursionJava" />
-      <item itemvalue="Application.Sum67" />
-      <item itemvalue="Application.Sum13" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringInterviewQuestions" />
+        <item itemvalue="Application.StringTokenizerLesson" />
         <item itemvalue="Application.StringMethods" />
         <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.RescursionJava" />
-        <item itemvalue="Application.Sum67" />
-        <item itemvalue="Application.Sum13" />
       </list>
     </recent_temporary>
   </component>
@@ -133,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00001" summary="PDP Bootcamp Lessons e">
-      <created>1678862839029</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1678862839029</updated>
     </task>
     <task id="LOCAL-00002" summary="command-line argument">
       <created>1678863029660</created>
@@ -477,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680776868611</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="add String methods Immutable String">
+      <created>1680796254565</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1680796254565</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Selection sort" />
     <MESSAGE value="Heap sort" />
     <MESSAGE value="Heap&#10; sort" />
     <MESSAGE value="Merge Sort" />
@@ -506,7 +506,8 @@
     <MESSAGE value="add Sum67 problem solution" />
     <MESSAGE value="add Recursive method" />
     <MESSAGE value="add String methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="add String methods" />
+    <MESSAGE value="add String methods Immutable String" />
+    <option name="LAST_COMMIT_MESSAGE" value="add String methods Immutable String" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
