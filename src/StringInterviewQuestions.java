@@ -15,8 +15,12 @@ public class StringInterviewQuestions {
 //        boolean res = isPalindromeV2("nitin");
 //        System.out.println(res);
 
-        //Q:6
-        String res = capStringV1("apple lemon banana cherry");
+        //Q:6 Answer
+//        String res = capStringV1("apple lemon banana cherry");
+//        System.out.println(res);
+
+        //Q:7 Answer
+        String res = reverseEachWord("this is javatpoint");
         System.out.println(res);
 
     }
@@ -95,6 +99,21 @@ public class StringInterviewQuestions {
         return sb.toString();
     }
 
+    //Q:7 Solution
+    static String reverseEachWord(String str) {
+        String[] words = str.split("\\s+");
+        StringBuilder sb = new StringBuilder(words.length);
+        for(String word : words) {
+            for(int j = word.length() - 1; j >= 0; j--) {
+                sb.append(word.charAt(j));
+            }
+            sb.append(" ");
+        }
+
+        return sb.toString();
+    }
+
+
 }
 
 // Q:1
@@ -136,3 +155,10 @@ public class StringInterviewQuestions {
 // this is javatpoint
 // output
 // This Is Javatpoint
+
+//Q:7
+// Write a java program to reverse each word in string
+//input
+//this is javapoint
+//output
+//sihtsi tnioptavaj
