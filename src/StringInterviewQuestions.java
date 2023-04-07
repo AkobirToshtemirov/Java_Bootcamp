@@ -1,3 +1,5 @@
+import java.util.StringTokenizer;
+
 public class StringInterviewQuestions {
 
     public static void main(String[] args) {
@@ -10,8 +12,13 @@ public class StringInterviewQuestions {
 //        System.out.println(res);
 
         //Q:5 Answer V2
-        boolean res = isPalindromeV2("nitin");
+//        boolean res = isPalindromeV2("nitin");
+//        System.out.println(res);
+
+        //Q:6
+        String res = capitalizeEachWord("apple lemon banana cherry");
         System.out.println(res);
+
     }
 
     // Q:4 Solution
@@ -44,6 +51,19 @@ public class StringInterviewQuestions {
         return true;
     }
 
+    //Q:6 Solution
+    static String capitalizeEachWord(String str){
+        StringTokenizer st = new StringTokenizer(str);
+        StringBuilder sb = new StringBuilder(str.length());
+        while(st.hasMoreTokens()){
+            String token = st.nextToken();
+            sb.append(token.substring(0, 1).toUpperCase());
+            sb.append(token.substring(1));
+            sb.append(" ");
+        }
+
+        return sb.toString();
+    }
 
 }
 
@@ -79,3 +99,10 @@ public class StringInterviewQuestions {
 //jatin
 //Output:
 //false
+
+//Q:6
+// Write a Java Program to capitalize each word in String?
+// input
+// this is javatpoint
+// output
+// This Is Javatpoint
