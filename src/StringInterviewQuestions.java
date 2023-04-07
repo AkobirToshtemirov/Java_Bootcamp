@@ -4,6 +4,10 @@ public class StringInterviewQuestions {
     //Q:4 Answer
 //        String res = reverseString("this is javatpoint");
 //        System.out.println(res);
+
+     //Q:5 Answer
+      boolean res = isPalindrome("nitin");
+        System.out.println(res);
     }
 
     // Q:4 Solution
@@ -13,6 +17,15 @@ public class StringInterviewQuestions {
             sb.append(str.charAt(i));
         }
         return sb.toString();
+    }
+
+    //Q:5 Solution V1
+    static boolean isPalindrome(String str) {
+        StringBuilder sb = new StringBuilder();
+        for (int i = str.length() - 1; i >= 0; i--) {
+            sb.append(str.charAt(i));
+        }
+        return (str.equals(sb.toString()));
     }
 
 
@@ -39,3 +52,14 @@ public class StringInterviewQuestions {
 //this is javatpoint
 //Output:
 //tnioptavaj si siht
+
+//Q:5
+//5) How to check Palindrome String in java?
+//Input:
+//nitin
+//Output:
+//true
+//Input:
+//jatin
+//Output:
+//false
