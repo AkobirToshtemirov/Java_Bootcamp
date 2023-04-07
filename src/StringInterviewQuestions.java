@@ -20,7 +20,11 @@ public class StringInterviewQuestions {
 //        System.out.println(res);
 
         //Q:7 Answer
-        String res = reverseEachWordV2("this is javatpoint");
+//        String res = reverseEachWordV2("this is javatpoint");
+//        System.out.println(res);
+
+        //Q:8 Answer
+        String res = toggleEachWord("this is javatpoint");
         System.out.println(res);
 
     }
@@ -123,6 +127,19 @@ public class StringInterviewQuestions {
         return String.join(" ", words);
     }
 
+    //Q:8 Answer
+    static String toggleEachWord(String str) {
+        String[] words = str.split("\\s+");
+        StringBuilder sb = new StringBuilder(words.length);
+
+        for(String word : words) {
+            sb.append(word.charAt(0));
+            sb.append(word.substring(1).toUpperCase());
+            sb.append(" ");
+        }
+
+        return sb.toString();
+    }
 
 }
 
@@ -172,3 +189,10 @@ public class StringInterviewQuestions {
 //this is javapoint
 //output
 //sihtsi tnioptavaj
+
+//Q:8
+// Write a program to tOGGLE each word in String
+//input
+// this is javatpoint
+//ouput
+// tHIS iS jAVATPOINT

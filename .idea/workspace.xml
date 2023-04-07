@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that reverses each word in the String">
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that reverses each word in the String V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/StringInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringInterviewQuestions.java" afterDir="false" />
     </list>
@@ -133,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00009" summary=" operators: logiacal">
-      <created>1678997024424</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1678997024424</updated>
     </task>
     <task id="LOCAL-00010" summary=" operators: loops">
       <created>1678998969126</created>
@@ -477,11 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680845755687</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add Program that reverses each word in the String V2">
+      <created>1680846306153</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1680846306154</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="examples of params" />
     <MESSAGE value="working with API doc" />
     <MESSAGE value="working with currency" />
     <MESSAGE value="working with currency BigDecimal" />
@@ -506,7 +505,8 @@
     <MESSAGE value="add Program that returns Each word of string capitalized V2" />
     <MESSAGE value="add Program that returns Each word of string capitalized V3" />
     <MESSAGE value="add Program that reverses each word in the String" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Program that reverses each word in the String" />
+    <MESSAGE value="add Program that reverses each word in the String V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Program that reverses each word in the String V2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
