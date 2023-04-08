@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that tOOGLES each word in String V3">
-      <change afterPath="$PROJECT_DIR$/src/ArraysClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/IsEverywhere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RandomClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WithoutString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that sloves isEverywhere task">
+      <change afterPath="$PROJECT_DIR$/src/Either24.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,9 +65,16 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.IsEverywhere">
+  <component name="RunManager" selected="Application.Either24">
     <configuration name="ArraysClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ArraysClass" />
+      <module name="Java_Bootcamp_PDP_lessons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Either24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Either24" />
       <module name="Java_Bootcamp_PDP_lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,13 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringInterviewQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringInterviewQuestions" />
-      <module name="Java_Bootcamp_PDP_lessons" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WithoutString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="WithoutString" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -106,19 +102,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Either24" />
       <item itemvalue="Application.IsEverywhere" />
       <item itemvalue="Application.ArraysClass" />
       <item itemvalue="Application.RandomClass" />
       <item itemvalue="Application.WithoutString" />
-      <item itemvalue="Application.StringInterviewQuestions" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Either24" />
         <item itemvalue="Application.IsEverywhere" />
         <item itemvalue="Application.RandomClass" />
         <item itemvalue="Application.ArraysClass" />
         <item itemvalue="Application.WithoutString" />
-        <item itemvalue="Application.StringInterviewQuestions" />
       </list>
     </recent_temporary>
   </component>
@@ -130,13 +126,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00013" summary=" operators: math sqrt">
-      <created>1679051466065</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1679051466065</updated>
     </task>
     <task id="LOCAL-00014" summary=" operators: passing the parameters">
       <created>1679065643084</created>
@@ -474,11 +463,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680869816141</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="add Program that sloves isEverywhere task">
+      <created>1680925817749</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1680925817749</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="BigDecimal" />
     <MESSAGE value="StringBuilder in Java" />
     <MESSAGE value="Practice StringBuilder in Java" />
     <MESSAGE value="Practice StringBuilder in Java append" />
@@ -503,7 +498,8 @@
     <MESSAGE value="add Program that tOOGLES each word in String" />
     <MESSAGE value="add Program that tOOGLES each word in String V2" />
     <MESSAGE value="add Program that tOOGLES each word in String V3" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Program that tOOGLES each word in String V3" />
+    <MESSAGE value="add Program that sloves isEverywhere task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Program that sloves isEverywhere task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
