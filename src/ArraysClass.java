@@ -11,5 +11,6 @@ public class ArraysClass {
         Arrays.fill(arr, 33);
         System.out.println(Arrays.toString(arr));
         System.out.println(Arrays.toString(newArrr));
+//        Arrays.sort();
     }
 }
