@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that NotReplace task">
-      <change afterPath="$PROJECT_DIR$/src/Fix34.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add enum">
+      <change afterPath="$PROJECT_DIR$/src/OOP/ClothingItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Hat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OOP/Object.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/ShuffleTheArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StringInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringInterviewQuestions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathHelper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +72,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringInterviewQuestions">
+  <component name="RunManager" selected="Application.ShuffleTheArray">
     <configuration name="Fix34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fix34" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -82,9 +87,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SameEnds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SameEnds" />
+    <configuration name="ShuffleTheArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.ShuffleTheArray" />
       <module name="Java_Bootcamp_PDP_lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,19 +121,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ShuffleTheArray" />
       <item itemvalue="Application.StringInterviewQuestions" />
       <item itemvalue="Application.Fix34" />
       <item itemvalue="Application.NotReplace" />
       <item itemvalue="Application.ZeroFront" />
-      <item itemvalue="Application.SameEnds" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShuffleTheArray" />
         <item itemvalue="Application.StringInterviewQuestions" />
         <item itemvalue="Application.Fix34" />
         <item itemvalue="Application.NotReplace" />
         <item itemvalue="Application.ZeroFront" />
-        <item itemvalue="Application.SameEnds" />
       </list>
     </recent_temporary>
   </component>
@@ -134,13 +145,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00017" summary="darts competition">
-      <created>1679207157740</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1679207157740</updated>
     </task>
     <task id="LOCAL-00018" summary="darts competition 1">
       <created>1679209466077</created>
@@ -478,11 +482,17 @@
       <option name="project" value="LOCAL" />
       <updated>1681181322712</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="add enum">
+      <created>1681208084083</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1681208084083</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="NumberFormat Java" />
     <MESSAGE value="Formatting Currency in Java" />
     <MESSAGE value="DecimalFormat Java for Currency" />
     <MESSAGE value="Parse String Values" />
@@ -507,7 +517,8 @@
     <MESSAGE value="add Program that sloves either24 task" />
     <MESSAGE value="add Program that sloves codingbad questions task" />
     <MESSAGE value="add Program that NotReplace task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Program that NotReplace task" />
+    <MESSAGE value="add enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="add enum" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

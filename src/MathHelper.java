@@ -7,4 +7,10 @@ public class MathHelper {
     public static void main(String[] args) {
 
     }
+
+    public enum Operation {
+        ADD, SUBTRACT;
+    }
+
+
 }
