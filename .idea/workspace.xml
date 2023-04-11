@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that sloves codingbad questions task">
-      <change afterPath="$PROJECT_DIR$/src/NotReplace.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that NotReplace task">
+      <change afterPath="$PROJECT_DIR$/src/Fix34.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StringInterviewQuestions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StringInterviewQuestions.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,9 +67,9 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.NotReplace">
-    <configuration name="Either24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Either24" />
+  <component name="RunManager" selected="Application.StringInterviewQuestions">
+    <configuration name="Fix34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fix34" />
       <module name="Java_Bootcamp_PDP_lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,8 +89,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoTwo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TwoTwo" />
+    <configuration name="StringInterviewQuestions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringInterviewQuestions" />
       <module name="Java_Bootcamp_PDP_lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,19 +110,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.StringInterviewQuestions" />
+      <item itemvalue="Application.Fix34" />
       <item itemvalue="Application.NotReplace" />
       <item itemvalue="Application.ZeroFront" />
       <item itemvalue="Application.SameEnds" />
-      <item itemvalue="Application.TwoTwo" />
-      <item itemvalue="Application.Either24" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StringInterviewQuestions" />
+        <item itemvalue="Application.Fix34" />
         <item itemvalue="Application.NotReplace" />
         <item itemvalue="Application.ZeroFront" />
         <item itemvalue="Application.SameEnds" />
-        <item itemvalue="Application.TwoTwo" />
-        <item itemvalue="Application.Either24" />
       </list>
     </recent_temporary>
   </component>
@@ -133,13 +134,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00016" summary="codingBat simple algorithms">
-      <created>1679206967241</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1679206967241</updated>
     </task>
     <task id="LOCAL-00017" summary="darts competition">
       <created>1679207157740</created>
@@ -477,11 +471,17 @@
       <option name="project" value="LOCAL" />
       <updated>1681095317787</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="add Program that NotReplace task">
+      <created>1681181322712</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1681181322712</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practice StringBuilder in Java append" />
     <MESSAGE value="NumberFormat Java" />
     <MESSAGE value="Formatting Currency in Java" />
     <MESSAGE value="DecimalFormat Java for Currency" />
@@ -506,7 +506,8 @@
     <MESSAGE value="add Program that sloves isEverywhere task" />
     <MESSAGE value="add Program that sloves either24 task" />
     <MESSAGE value="add Program that sloves codingbad questions task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Program that sloves codingbad questions task" />
+    <MESSAGE value="add Program that NotReplace task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Program that NotReplace task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

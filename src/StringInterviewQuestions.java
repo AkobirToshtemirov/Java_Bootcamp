@@ -28,8 +28,14 @@ public class StringInterviewQuestions {
 //        System.out.println(res);
 
         //Q:9 Answer
-        String res = reverseToggle("this is javatpoint");
-        System.out.println(res);
+//        String res = reverseToggle("this is javatpoint");
+//        System.out.println(res);
+
+        //Q:27 Answer
+//        String res = removeChar("hello", 'l');
+//        System.out.println(res);
+
+        
 
     }
 
@@ -63,6 +69,8 @@ public class StringInterviewQuestions {
         return true;
     }
 
+
+
     //Q:6 Solution
     static String capitalizeEachWord(String str){
         StringTokenizer st = new StringTokenizer(str);
@@ -88,6 +96,7 @@ public class StringInterviewQuestions {
 
         return sb.toString().trim();
     }
+
 
     //Q:6 Solution V2
     static String capStringV2(String str) {
@@ -191,6 +200,21 @@ public class StringInterviewQuestions {
         return sb.toString();
     }
 
+    //Q:27 Solution
+    static String removeChar(String str, char c){
+        StringBuilder sb = new StringBuilder();
+
+        for(int i = 0; i < str.length(); i++) {
+            if(str.charAt(i) == c) {
+                continue;
+            }
+            sb.append(str.charAt(i));
+        }
+
+        return sb.toString();
+    }
+
+
 }
 
 // Q:1
@@ -253,3 +277,6 @@ public class StringInterviewQuestions {
 // this is javatpoint
 //output
 //sIHT sI tNIOPJAVAJ
+
+//Q:27
+// Remove specific character from the String
