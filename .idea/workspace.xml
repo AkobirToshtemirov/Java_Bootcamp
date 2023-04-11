@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that sloves either24 task">
-      <change afterPath="$PROJECT_DIR$/src/SameEnds.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TwoTwo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lesson_1/ZeroFront.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Program that sloves codingbad questions task">
+      <change afterPath="$PROJECT_DIR$/src/NotReplace.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArraysClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArraysClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +66,7 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ZeroFront">
+  <component name="RunManager" selected="Application.NotReplace">
     <configuration name="Either24" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Either24" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -77,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IsEverywhere" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IsEverywhere" />
+    <configuration name="NotReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NotReplace" />
       <module name="Java_Bootcamp_PDP_lessons" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -112,19 +109,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.NotReplace" />
       <item itemvalue="Application.ZeroFront" />
       <item itemvalue="Application.SameEnds" />
       <item itemvalue="Application.TwoTwo" />
       <item itemvalue="Application.Either24" />
-      <item itemvalue="Application.IsEverywhere" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotReplace" />
         <item itemvalue="Application.ZeroFront" />
         <item itemvalue="Application.SameEnds" />
         <item itemvalue="Application.TwoTwo" />
         <item itemvalue="Application.Either24" />
-        <item itemvalue="Application.IsEverywhere" />
       </list>
     </recent_temporary>
   </component>
@@ -136,13 +133,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00015" summary=" operators: passing the parameters1">
-      <created>1679067251078</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1679067251078</updated>
     </task>
     <task id="LOCAL-00016" summary="codingBat simple algorithms">
       <created>1679206967241</created>
@@ -480,11 +470,17 @@
       <option name="project" value="LOCAL" />
       <updated>1680926042914</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="add Program that sloves codingbad questions task">
+      <created>1681095317787</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1681095317787</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Practice StringBuilder in Java" />
     <MESSAGE value="Practice StringBuilder in Java append" />
     <MESSAGE value="NumberFormat Java" />
     <MESSAGE value="Formatting Currency in Java" />
@@ -509,7 +505,8 @@
     <MESSAGE value="add Program that tOOGLES each word in String V3" />
     <MESSAGE value="add Program that sloves isEverywhere task" />
     <MESSAGE value="add Program that sloves either24 task" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Program that sloves either24 task" />
+    <MESSAGE value="add Program that sloves codingbad questions task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Program that sloves codingbad questions task" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -556,13 +553,13 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/lesson_1/ZeroFront.java</url>
-          <line>30</line>
-          <properties class="lesson_1.ZeroFront" method="withoutTen">
+          <url>file://$PROJECT_DIR$/src/NotReplace.java</url>
+          <line>6</line>
+          <properties class="NotReplace" method="notReplace">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>
-          <option name="timeStamp" value="13" />
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
