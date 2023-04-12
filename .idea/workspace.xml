@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add enum">
-      <change afterPath="$PROJECT_DIR$/src/OOP/ClothingItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Hat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/OOP/Object.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/ShuffleTheArray.java" afterDir="false" />
+    <list default="true" id="2aae0b37-1be7-4fe9-9a10-de0c5734adaa" name="Changes" comment="add Leetcode problem solution 1">
+      <change afterPath="$PROJECT_DIR$/src/AltPairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MathHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MathHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode/LeftAndRightSumDifferences.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode/LeftAndRightSumDifferences.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +69,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ShuffleTheArray">
+  <component name="RunManager" selected="Application.AltPairs">
+    <configuration name="AltPairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AltPairs" />
+      <module name="Java_Bootcamp_PDP_lessons" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Fix34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fix34" />
       <module name="Java_Bootcamp_PDP_lessons" />
@@ -80,9 +84,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NotReplace" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NotReplace" />
+    <configuration name="LeftAndRightSumDifferences" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LeftAndRightSumDifferences" />
       <module name="Java_Bootcamp_PDP_lessons" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,33 +117,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroFront" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lesson_1.ZeroFront" />
-      <module name="Java_Bootcamp_PDP_lessons" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="lesson_1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.AltPairs" />
+      <item itemvalue="Application.LeftAndRightSumDifferences" />
       <item itemvalue="Application.ShuffleTheArray" />
       <item itemvalue="Application.StringInterviewQuestions" />
       <item itemvalue="Application.Fix34" />
-      <item itemvalue="Application.NotReplace" />
-      <item itemvalue="Application.ZeroFront" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AltPairs" />
+        <item itemvalue="Application.LeftAndRightSumDifferences" />
         <item itemvalue="Application.ShuffleTheArray" />
         <item itemvalue="Application.StringInterviewQuestions" />
         <item itemvalue="Application.Fix34" />
-        <item itemvalue="Application.NotReplace" />
-        <item itemvalue="Application.ZeroFront" />
       </list>
     </recent_temporary>
   </component>
@@ -145,13 +142,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678862792246</updated>
-    </task>
-    <task id="LOCAL-00018" summary="darts competition 1">
-      <created>1679209466077</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1679209466077</updated>
     </task>
     <task id="LOCAL-00019" summary="simple java program">
       <created>1679232851491</created>
@@ -489,11 +479,17 @@
       <option name="project" value="LOCAL" />
       <updated>1681208084083</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="add Leetcode problem solution 1">
+      <created>1681240644688</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1681240644688</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Formatting Currency in Java" />
     <MESSAGE value="DecimalFormat Java for Currency" />
     <MESSAGE value="Parse String Values" />
     <MESSAGE value="add new problem solution" />
@@ -518,7 +514,8 @@
     <MESSAGE value="add Program that sloves codingbad questions task" />
     <MESSAGE value="add Program that NotReplace task" />
     <MESSAGE value="add enum" />
-    <option name="LAST_COMMIT_MESSAGE" value="add enum" />
+    <MESSAGE value="add Leetcode problem solution 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Leetcode problem solution 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -572,6 +569,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/AltPairs.java</url>
+          <line>6</line>
+          <properties class="AltPairs" method="altPairs">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-defaults>
