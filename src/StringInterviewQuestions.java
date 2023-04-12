@@ -35,7 +35,11 @@ public class StringInterviewQuestions {
 //        String res = removeChar("hello", 'l');
 //        System.out.println(res);
 
-        
+//    String res = reverseEach("this is javatpoint");
+//    System.out.println(res);
+
+        String res = reverseEachV2("this is javatpoint");
+        System.out.println(res);
 
     }
 
@@ -213,6 +217,28 @@ public class StringInterviewQuestions {
 
         return sb.toString();
     }
+
+    static String reverseEach(String str) {
+        String[] words = str.split("\\s+");
+        StringBuilder sb = new StringBuilder();
+        for(String word : words) {
+            for(int i = word.length() - 1; i > -1; i--) {
+                sb.append(word.charAt(i));
+            }
+            sb.append(" ");
+        }
+        return sb.toString();
+    }
+
+    static String reverseEachV2(String str) {
+        String[] words = str.split("\\s+");
+        StringBuilder sb = new StringBuilder();
+        for (String word : words) {
+            sb.append(new StringBuilder(word).reverse().toString()).append(" ");
+        }
+        return sb.toString().trim();
+    }
+
 
 
 }
